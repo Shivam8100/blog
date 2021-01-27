@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Ubuntu:ital@1&display=swap');
+
+.max-width-1{
+    max-width:89vw;
+
+}
+
+:root {
+    --main-bg-color: brown;
+    --main-bg-color-2:rgb(94, 16, 94);
+    --font-1:font-family: 'Baloo Bhai 2', cursive;
+    --font-2: 'Ubuntu', sans-serif;
+  }
+.max-width-2{
+    max-width: 89vw;
+
+}
+.m-auto{
+
+    margin:auto;
+
+}
+.my-2{
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+.btn{padding: 1px 10px;
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: (var(--font-1));
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+
+}
+.btn:hover{
+    background: var(--main-bg-color);
+    color: white;
+    border-color: black;
+
+
+}
+.form-input{    border: 2px solid black;
+    padding: 2px 5px;
+    font-size: 14px;
+    border-radius: 6px;
+    font-family: (var(--font-1));
+    /* border-radius: 10px; */
+
+
+}
+.form-box input,textarea{
+    width:52vw;
+    padding:7px 8px;
+    margin: 3px 0px;
+    border: 3px solid var(--main-bg-color);
+    border-radius: 7px;
+    font-size: 20px;
+    background-color:rgb(172, 91, 91,0.2);
+} 

@@ -1,0 +1,20 @@
+.blog-post-img{
+    height:100%;
+    overflow: hidden;
+    
+    }
+.blog-post-img img{
+    width: 100%;
+}
+.author{
+    margin:27px 77px;
+}
+.heading{
+    margin-top: 56px;
+}
+.blog-post-write{
+    margin-top:47px;
+    margin-left: 77px;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+}
